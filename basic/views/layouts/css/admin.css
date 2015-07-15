@@ -1,0 +1,37 @@
+html{
+	background-color: #F5F5F5!important;
+}
+body
+{
+    background-color: #F5F5F5!important;
+}
+table th,table td
+{
+    text-align: center;
+}
+
+
+#createform
+{
+    padding: 30px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    margin-top: 20px;
+}
+
+#detailform
+{
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    margin-top: 20px;
+}
+
+#settingform{
+    padding: 30px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    margin-top: 20px;
+}

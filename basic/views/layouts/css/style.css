@@ -1,0 +1,192 @@
+.dialog-open{
+	overflow-y:hidden !important;
+}
+.rs-overlay{
+	background:#000;
+	opacity:.5;
+	filter: alpha(opacity=50);
+	position: fixed;
+	z-index: 1000;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	display: none;
+}
+.rs-dialog{
+	display: none;
+	opacity: 0;
+	overflow: hidden;
+	position: fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;	
+	z-index: 1040;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
+	/*background: rgba(0,0,0,.5);*/
+	-webkit-transition: opacity .15s linear;
+	-o-transition: opacity .15s linear;
+	transition: opacity .15s linear;
+}
+.dialog-open .rs-dialog{
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.rs-dialog.in{
+	opacity: 1;
+}
+.rs-dialog .rs-dialog-box {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.rs-dialog.in .rs-dialog-box {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.rs-dialog .rs-dialog-box{
+	position: relative;
+	margin:30px auto;
+	width: 600px;
+	background-color: #ffffff;
+	border-radius:10px;
+	border: 1px solid #999999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.logged-in .rs-dialog .rs-dialog-box{
+	margin-top:60px;
+}
+.rs-dialog-box a.close{
+	position: absolute;
+	top: -12px;
+	right: -12px;
+	width: 25px;
+	height: 25px;
+	padding: 0;
+	line-height: 25px;
+	font-size:20px;
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	text-shadow: 0 1px 0 #ffffff;
+	color: #fff;
+	background-color:#8b8b8b;
+	border:2px solid #fff;	
+	border-radius: 25px;	
+	box-shadow:0 0 3px 1px #999;
+	outline: none;
+}
+.rs-dialog-box a.close:hover{
+	background-color:#444;
+}
+.rs-dialog-header{
+	padding: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.rs-dialog-header h3{
+	font-size: 18px;
+	margin:0 !important;
+	padding:0 !important;
+}
+.rs-dialog-body{
+	padding: 20px;
+	line-height: 1.4
+}
+.rs-dialog-body p{
+	margin-bottom:10px;
+}
+.rs-dialog-footer{
+	padding: 20px;
+	border-top:1px solid #e5e5e5;
+	overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .rs-dialog .rs-dialog-box {
+    width: auto;
+    margin: 30px 20px;
+  }
+}
+.confirmbut{
+	font-family: "微软雅黑";
+}
+    .onoffswitch {
+        position: relative; width: 100px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+
+    .onoffswitch-checkbox {
+        display: none;
+    }
+
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border: 2px solid #999999; border-radius: 20px;
+    }
+
+    .onoffswitch-inner {
+        width: 200%; margin-left: -100%;
+        -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+        -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+        font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+
+    .onoffswitch-inner:before {
+        content: "需审核";
+        padding-left: 10px;
+        background-color: #34A7C1; color: #FFFFFF;
+    }
+
+    .onoffswitch-inner:after {
+        content: "无需审核";
+        padding-right: 10px;
+        background-color: #EEEEEE; color: #999999;
+        text-align: right;
+    }
+
+    .onoffswitch-switch {
+        width: 22px; margin: 6px;
+        background: #FFFFFF;
+        border: 2px solid #999999; border-radius: 20px;
+        position: absolute; top: 0; bottom: 0; right: 62px;
+        -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+        -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
+    }
+
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 0px;
+    }
+.fileico{
+	width: 120px;
+	padding: 8px;
+	border:1px solid #ccc;
+	text-align: center;
+	margin-left: 15px;
+}
+.fileico a{
+    max-width: 100px;
+}
+.fileico img{
+	width: 100px;
+	height: 100px;
+}
