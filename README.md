@@ -4,8 +4,6 @@
 详细介绍参见个人博客：[明桑战胜Android汪的黑历史](http://www.jycoder.com)
 
 或者CSDN博客: [明桑Android](http://blog.csdn.net/qwm8777411)
-        
-你可以直接访问[EmailManager](http://123.56.46.9/basic/web/index.php?r=site/login)
 
 注意不要使用360浏览器等IE内核浏览器打开，**请使用火狐或者Chrome浏览器**体验功能。
 
