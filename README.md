@@ -68,7 +68,4 @@
 
 ----------
 
-- 微信公众号：	[ITBird](http://www.jycoder.com)
 
-
-	![](http://i.imgur.com/8CEGPgR.png)
