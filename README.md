@@ -1,9 +1,7 @@
 # EmailManager
 企业邮件管理系统，包括管理员，邮件审核人员，邮件分发人员和邮件处理人员及其对应业务逻辑
 
-详细介绍参见个人博客：[明桑战胜Android汪的黑历史](http://www.jycoder.com)
-
-或者CSDN博客: [明桑Android](http://blog.csdn.net/qwm8777411)
+详细介绍参见CSDN博客: [明桑Android](http://blog.csdn.net/qwm8777411)
 
 注意不要使用360浏览器等IE内核浏览器打开，**请使用火狐或者Chrome浏览器**体验功能。
 
